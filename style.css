@@ -1,0 +1,59 @@
+body{
+    background-image: url("backgroun image with laptop.jpg");
+    background-size: 100% 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+img{
+    margin: 10px;
+    border: 1px solid black;
+    border-radius: 60px;
+    grid-column: 1;
+    margin-top: 0;
+}
+
+h1{
+    color: aliceblue;
+    text-align: center;
+    font-size: 42px;
+    grid-column: 1;
+    margin-bottom: 0;
+}
+
+h2{
+    color: aliceblue;
+    text-align: center;
+    font-size: 42px;
+    grid-column: 1;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+button{
+    padding: 15px;
+    border: 1px solid black;
+    border-radius: 30px;
+    margin: 10px;
+}
+
+h1:first-of-type{
+    grid-column: 1 / 3;
+}
+
+.contact{
+    color: aliceblue;
+    grid-column: 2;
+    margin-left: -150px;
+}
+.objective{
+    color: aliceblue;
+}
+
+.about{
+    margin-left: -170px;
+}
+
+a{
+    text-decoration: none;
+}
